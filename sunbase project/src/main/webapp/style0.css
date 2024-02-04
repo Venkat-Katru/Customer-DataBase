@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+:root {
+    --primary-color: green;
+    --secondary-color: blue;
+    --button-hover-color: rgb(107, 107, 107);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease; 
+}
+
+h1 {
+    padding-top: 20px;
+    margin: -13px 79px 0px 50px;
+}
+
+body {
+    background-image: url('https://wallpaperboat.com/wp-content/uploads/2019/10/free-website-background-21.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.5s ease;
+}
+
+div.main {
+    width: 400px;
+    margin: 80px auto 0px auto;
+    backdrop-filter: blur(20px);
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+div.reg {
+    background-color: rgba(0, 0, 0, 0.26);
+    width: 100%;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: red;
+    box-shadow: 2px 2px 15px grey;
+}
+
+form#in {
+    margin: 20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input#na1,
+input#na2,
+input#na3,
+input#na4,
+input#na5,
+input#na6,
+input#na7 {
+    width: 300px;
+    padding: 7px;
+    border-radius: 8px;
+}
+input::placeholder
+{
+    color: #0e0c0c;
+}
+
+button#sub,
+button#res,
+button#sub1,
+#btnl {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+button#sub {
+    background-image: linear-gradient(var(--primary-color), rgb(106, 255, 0), var(--primary-color));
+}
+
+button#sub:hover {
+    border: 3px solid var(--button-hover-color);
+    transform: scale(1.05); 
+}
+#sub1 {
+            width: 197px;
+            height: 38px;
+            margin: 19px 100px;
+            font-size: 18px;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 8px;
+            color: white;
+            background-image: linear-gradient(to right,rgb(255, 128, 64), rgb(255, 128, 128), rgb(128, 128, 128));
+            text-align: center;
+            z-index: 2;
+}
+
+#sub1:hover {
+            border: 3px solid rgb(255, 0, 0);
+            background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 0, 0), rgb(255, 0, 0));
+}
+button#res {
+    margin-left: 30px;
+    background-image: linear-gradient(var(--secondary-color), aqua, var(--secondary-color));
+}
+
+button#res:hover {
+    border: 3px solid var(--button-hover-color);
+    transform: scale(1.05);
+}
+
+#btnl {
+    width: 334px;
+    margin-top: 10px;
+    background-image: linear-gradient(red, yellow, red); 
+    margin-bottom: 41px;
+}
+
+#btnl:hover {
+    border: 3px solid var(--button-hover-color);
+    transform: scale(1.05); 
+}
+
+#sec {
+    height: 26px;
+    border-radius: 10px;
+    text-align: center;
+    border-top: 2px solid rgb(60, 60, 60);
+    border-left: 2px solid rgb(60, 60, 60);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Table Page</title>
+    <script>
+		
+        // Function to handle the logout button click
+        function logout() {
+            // Make an AJAX request to the LogoutServlet using GET
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "logout1", true);
+
+            // Define the callback function when the request completes
+            xhr.onload = function () {
+                // Check if the response indicates successful logout
+                if (xhr.responseText === "Logout successful") {
+					 
+
+                    // Redirect to the login page
+                    window.location.href = "login1.html";
+
+                    // Manipulate the browser history to prevent back navigation
+                    history.pushState(null, null, "view.jsp");
+
+                    // Close all tabs (except the current one)
+                    var allTabs = window.open('', '_self', '');
+                    allTabs.close();
+                }
+            };
+
+            xhr.send();4
+        }
+    </script>
+</head>
+<body>
+    <h1>View Table Page</h1>
+
+    <!-- Your table display goes here -->
+
+    <button onclick="logout()">Logout</button>
+</body>
+</html>

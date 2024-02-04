@@ -1,0 +1,137 @@
+@charset "UTF-8";
+        * {
+            margin: 0;
+            padding: 0;
+            
+        }
+		
+        table,
+        th,
+        td {
+            z-index: -1;
+            margin-left: 152px;
+            margin-top: 250px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(80, 80, 80, 0.733);
+            border-radius: 4px;
+            width: 300;
+            height: 60px;
+            text-align: center;
+
+        }
+        
+       
+
+        table {
+            margin-top: 100px;
+            border: 1px solid rgba(80, 80, 80, 0.733);
+            border-radius: 7px;
+            text-align: center;
+        }
+
+        
+        body{
+           background:url('https://c.wallhere.com/photos/a2/74/flight_plane_sky_color_line-1053859.jpg!d');
+        }
+
+
+        #bt1 {
+            width: 100px;
+            height: 30px;
+            margin: 10px 10px;
+            color: rgb(0, 0, 0);
+            background-image: linear-gradient(to left, rgb(255, 0, 234), yellow, rgb(255, 0, 234));
+            border: 1px solid black;
+            border-radius: 8px;
+        }
+
+        #bt1:hover {
+            border: 2px solid rgb(71, 71, 71);
+            background-image: linear-gradient(to left, yellow, rgb(255, 0, 234), yellow);
+        }
+
+        #bt2 {
+            width: 100px;
+            height: 30px;
+            margin: 10px 10px;
+            color: rgb(0, 0, 0);
+            background-image: linear-gradient(to left, red, yellow, red);
+            border: 1px solid black;
+            border-radius: 8px;
+        }
+
+        #bt2:hover {
+            border: 2px solid rgb(82, 82, 82);
+            background-image: linear-gradient(to left, yellow, red, yellow);
+        }
+
+
+        #bt3 {
+            width: 197px;
+            height: 38px;
+            margin-left: 300px;
+            margin-top: 20px;
+            font-size: 18px;
+            border: 2px solid rgb(80, 80, 80);
+            border-radius: 8px;
+            color: white;
+            background-image: linear-gradient(to right,rgb(13, 0, 197), rgb(0, 214, 252), rgb(4, 0, 255));
+            text-align: center;
+            z-index: 2;
+        }
+
+        #bt3:hover {
+            border: 3px solid rgb(90, 90, 90);
+            background-image: linear-gradient(rgb(18, 77, 0), rgb(98, 245, 0), rgb(36, 112, 0));
+        }
+        #sub1 {
+            width: 197px;
+            height: 38px;
+            margin-top: 20px;
+            margin-left: 450px;
+            font-size: 18px;
+            border: 2px solid rgb(255, 0, 0);
+            border-radius: 8px;
+            color: white;
+            background-image: linear-gradient(to right,rgb(255, 0, 0), rgb(255, 128, 64), rgb(128, 64, 64));
+            text-align: center;
+            z-index: 2;
+        }
+
+        #sub1:hover {
+            border: 3px solid rgb(255, 0, 0);
+            background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 0, 0), rgb(255, 0, 0));
+        }
+        
+        
+		 
+
+        th {
+
+            background-color: rgb(255, 94, 0);
+
+            color: white;
+            text-align: center;
+
+        }
+
+        td {
+            background-color: rgba(128, 128, 128, 0.301);
+            text-align:center;
+        }
+
+        #heading {
+            z-index: -1;
+            padding-left: 550;
+            margin-top: 20px;
+        }
+        
+        @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+   
+    }
